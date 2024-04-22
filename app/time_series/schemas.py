@@ -8,3 +8,7 @@ class TimeSeriesItem(BaseModel):
     organization: str
     value: float | None
     ingestion_time: datetime
+
+
+class TimeSeriesGroupedItem(BaseModel):
+    times_series: dict
