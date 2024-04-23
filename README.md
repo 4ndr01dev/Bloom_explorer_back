@@ -25,7 +25,10 @@ Once the virtual environment is activated, you can install all the required depe
 ```bash
 pip install -r requirements.txt
 ```
-
+### RUN
+```
+uvicorn app.main:app --host localhost --port 9090 --reloaD         
+```
 ### Database
 
 #### Start
